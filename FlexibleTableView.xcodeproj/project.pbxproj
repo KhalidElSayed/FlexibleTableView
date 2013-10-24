@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161729641818172300D95877 /* MSPinchInHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 161729631818172300D95877 /* MSPinchInHandler.m */; };
+		16802E7C1819BDEA0079E3FB /* MADragAndDropGestureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16802E751819BDEA0079E3FB /* MADragAndDropGestureTableViewController.m */; };
+		16802E7D1819BDEA0079E3FB /* MAPinchInGestureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16802E771819BDEA0079E3FB /* MAPinchInGestureTableViewController.m */; };
+		16802E7E1819BDEA0079E3FB /* MAPinchOutGestureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16802E791819BDEA0079E3FB /* MAPinchOutGestureTableViewController.m */; };
+		16802E7F1819BDEA0079E3FB /* MAPullGestureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16802E7B1819BDEA0079E3FB /* MAPullGestureTableViewController.m */; };
 		168071E01817F6E4001966AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168071DF1817F6E4001966AB /* Foundation.framework */; };
 		168071E21817F6E4001966AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168071E11817F6E4001966AB /* CoreGraphics.framework */; };
 		168071E41817F6E4001966AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168071E31817F6E4001966AB /* UIKit.framework */; };
@@ -14,13 +19,17 @@
 		168071EC1817F6E4001966AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 168071EB1817F6E4001966AB /* main.m */; };
 		168071F01817F6E4001966AB /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 168071EF1817F6E4001966AB /* MAAppDelegate.m */; };
 		168071F31817F6E4001966AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168071F11817F6E4001966AB /* Main.storyboard */; };
-		168071F61817F6E4001966AB /* MAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168071F51817F6E4001966AB /* MAViewController.m */; };
 		168071F81817F6E4001966AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168071F71817F6E4001966AB /* Images.xcassets */; };
 		168071FF1817F6E4001966AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168071FE1817F6E4001966AB /* XCTest.framework */; };
 		168072001817F6E4001966AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168071DF1817F6E4001966AB /* Foundation.framework */; };
 		168072011817F6E4001966AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168071E31817F6E4001966AB /* UIKit.framework */; };
 		168072091817F6E4001966AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 168072071817F6E4001966AB /* InfoPlist.strings */; };
 		1680720B1817F6E4001966AB /* FlexibleTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1680720A1817F6E4001966AB /* FlexibleTableViewTests.m */; };
+		1680721F1817F71D001966AB /* MSPinchOutHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 168072151817F71D001966AB /* MSPinchOutHandler.m */; };
+		168072201817F71D001966AB /* MSDragAndDropHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 168072181817F71D001966AB /* MSDragAndDropHandler.m */; };
+		168072211817F71D001966AB /* MSUtilitiesGesturesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1680721A1817F71D001966AB /* MSUtilitiesGesturesHandler.m */; };
+		168072221817F71D001966AB /* MSPullToAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1680721C1817F71D001966AB /* MSPullToAdd.m */; };
+		1680722B1817F876001966AB /* MAFlexibleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1680722A1817F876001966AB /* MAFlexibleTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		161729611818118A00D95877 /* MAPinchOutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPinchOutDelegate.h; sourceTree = "<group>"; };
+		161729621818172300D95877 /* MSPinchInHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPinchInHandler.h; sourceTree = "<group>"; };
+		161729631818172300D95877 /* MSPinchInHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPinchInHandler.m; sourceTree = "<group>"; };
+		161729651818173A00D95877 /* MAPinchInHandlerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPinchInHandlerDelegate.h; sourceTree = "<group>"; };
+		16802E721819B0880079E3FB /* MSDragAndDropHandlerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDragAndDropHandlerDelegate.h; sourceTree = "<group>"; };
+		16802E741819BDE90079E3FB /* MADragAndDropGestureTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADragAndDropGestureTableViewController.h; sourceTree = "<group>"; };
+		16802E751819BDEA0079E3FB /* MADragAndDropGestureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADragAndDropGestureTableViewController.m; sourceTree = "<group>"; };
+		16802E761819BDEA0079E3FB /* MAPinchInGestureTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPinchInGestureTableViewController.h; sourceTree = "<group>"; };
+		16802E771819BDEA0079E3FB /* MAPinchInGestureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPinchInGestureTableViewController.m; sourceTree = "<group>"; };
+		16802E781819BDEA0079E3FB /* MAPinchOutGestureTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPinchOutGestureTableViewController.h; sourceTree = "<group>"; };
+		16802E791819BDEA0079E3FB /* MAPinchOutGestureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPinchOutGestureTableViewController.m; sourceTree = "<group>"; };
+		16802E7A1819BDEA0079E3FB /* MAPullGestureTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPullGestureTableViewController.h; sourceTree = "<group>"; };
+		16802E7B1819BDEA0079E3FB /* MAPullGestureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPullGestureTableViewController.m; sourceTree = "<group>"; };
 		168071DC1817F6E4001966AB /* FlexibleTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexibleTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		168071DF1817F6E4001966AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		168071E11817F6E4001966AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +67,23 @@
 		168071EE1817F6E4001966AB /* MAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAppDelegate.h; sourceTree = "<group>"; };
 		168071EF1817F6E4001966AB /* MAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAppDelegate.m; sourceTree = "<group>"; };
 		168071F21817F6E4001966AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		168071F41817F6E4001966AB /* MAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAViewController.h; sourceTree = "<group>"; };
-		168071F51817F6E4001966AB /* MAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAViewController.m; sourceTree = "<group>"; };
 		168071F71817F6E4001966AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		168071FD1817F6E4001966AB /* FlexibleTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexibleTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		168071FE1817F6E4001966AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		168072061817F6E4001966AB /* FlexibleTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlexibleTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		168072081817F6E4001966AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1680720A1817F6E4001966AB /* FlexibleTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexibleTableViewTests.m; sourceTree = "<group>"; };
+		168072151817F71D001966AB /* MSPinchOutHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPinchOutHandler.m; sourceTree = "<group>"; };
+		168072161817F71D001966AB /* MSPinchOutHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPinchOutHandler.h; sourceTree = "<group>"; };
+		168072171817F71D001966AB /* MSDragAndDropHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDragAndDropHandler.h; sourceTree = "<group>"; };
+		168072181817F71D001966AB /* MSDragAndDropHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDragAndDropHandler.m; sourceTree = "<group>"; };
+		168072191817F71D001966AB /* MSUtilitiesGesturesHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUtilitiesGesturesHandler.h; sourceTree = "<group>"; };
+		1680721A1817F71D001966AB /* MSUtilitiesGesturesHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUtilitiesGesturesHandler.m; sourceTree = "<group>"; };
+		1680721B1817F71D001966AB /* MSPullToAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPullToAdd.h; sourceTree = "<group>"; };
+		1680721C1817F71D001966AB /* MSPullToAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPullToAdd.m; sourceTree = "<group>"; };
+		168072291817F876001966AB /* MAFlexibleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFlexibleTableViewController.h; sourceTree = "<group>"; };
+		1680722A1817F876001966AB /* MAFlexibleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFlexibleTableViewController.m; sourceTree = "<group>"; };
+		1680722C181803FE001966AB /* MAPullTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPullTableViewDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +110,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16802E731819BDDD0079E3FB /* tableview controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16802E741819BDE90079E3FB /* MADragAndDropGestureTableViewController.h */,
+				16802E751819BDEA0079E3FB /* MADragAndDropGestureTableViewController.m */,
+				16802E761819BDEA0079E3FB /* MAPinchInGestureTableViewController.h */,
+				16802E771819BDEA0079E3FB /* MAPinchInGestureTableViewController.m */,
+				16802E781819BDEA0079E3FB /* MAPinchOutGestureTableViewController.h */,
+				16802E791819BDEA0079E3FB /* MAPinchOutGestureTableViewController.m */,
+				16802E7A1819BDEA0079E3FB /* MAPullGestureTableViewController.h */,
+				16802E7B1819BDEA0079E3FB /* MAPullGestureTableViewController.m */,
+			);
+			name = "tableview controllers";
+			sourceTree = "<group>";
+		};
 		168071D31817F6E4001966AB = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +158,17 @@
 		168071E51817F6E4001966AB /* FlexibleTableView */ = {
 			isa = PBXGroup;
 			children = (
+				168072281817F7BA001966AB /* taps and touches */,
+				168072271817F7B2001966AB /* pull to add */,
+				168072261817F7A8001966AB /* drag and drop */,
+				168072251817F7A2001966AB /* pinch in */,
+				168072241817F794001966AB /* pinch out */,
+				168072141817F70D001966AB /* Table view gestures */,
 				168071EE1817F6E4001966AB /* MAAppDelegate.h */,
 				168071EF1817F6E4001966AB /* MAAppDelegate.m */,
 				168071F11817F6E4001966AB /* Main.storyboard */,
-				168071F41817F6E4001966AB /* MAViewController.h */,
-				168071F51817F6E4001966AB /* MAViewController.m */,
+				168072291817F876001966AB /* MAFlexibleTableViewController.h */,
+				1680722A1817F876001966AB /* MAFlexibleTableViewController.m */,
 				168071F71817F6E4001966AB /* Images.xcassets */,
 				168071E61817F6E4001966AB /* Supporting Files */,
 			);
@@ -150,6 +202,63 @@
 				168072071817F6E4001966AB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		168072141817F70D001966AB /* Table view gestures */ = {
+			isa = PBXGroup;
+			children = (
+				16802E731819BDDD0079E3FB /* tableview controllers */,
+			);
+			name = "Table view gestures";
+			sourceTree = "<group>";
+		};
+		168072241817F794001966AB /* pinch out */ = {
+			isa = PBXGroup;
+			children = (
+				168072151817F71D001966AB /* MSPinchOutHandler.m */,
+				168072161817F71D001966AB /* MSPinchOutHandler.h */,
+				161729611818118A00D95877 /* MAPinchOutDelegate.h */,
+			);
+			name = "pinch out";
+			sourceTree = "<group>";
+		};
+		168072251817F7A2001966AB /* pinch in */ = {
+			isa = PBXGroup;
+			children = (
+				161729621818172300D95877 /* MSPinchInHandler.h */,
+				161729631818172300D95877 /* MSPinchInHandler.m */,
+				161729651818173A00D95877 /* MAPinchInHandlerDelegate.h */,
+			);
+			name = "pinch in";
+			sourceTree = "<group>";
+		};
+		168072261817F7A8001966AB /* drag and drop */ = {
+			isa = PBXGroup;
+			children = (
+				168072171817F71D001966AB /* MSDragAndDropHandler.h */,
+				168072181817F71D001966AB /* MSDragAndDropHandler.m */,
+				16802E721819B0880079E3FB /* MSDragAndDropHandlerDelegate.h */,
+			);
+			name = "drag and drop";
+			sourceTree = "<group>";
+		};
+		168072271817F7B2001966AB /* pull to add */ = {
+			isa = PBXGroup;
+			children = (
+				1680721B1817F71D001966AB /* MSPullToAdd.h */,
+				1680721C1817F71D001966AB /* MSPullToAdd.m */,
+				1680722C181803FE001966AB /* MAPullTableViewDelegate.h */,
+			);
+			name = "pull to add";
+			sourceTree = "<group>";
+		};
+		168072281817F7BA001966AB /* taps and touches */ = {
+			isa = PBXGroup;
+			children = (
+				168072191817F71D001966AB /* MSUtilitiesGesturesHandler.h */,
+				1680721A1817F71D001966AB /* MSUtilitiesGesturesHandler.m */,
+			);
+			name = "taps and touches";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +359,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1680721F1817F71D001966AB /* MSPinchOutHandler.m in Sources */,
 				168071F01817F6E4001966AB /* MAAppDelegate.m in Sources */,
-				168071F61817F6E4001966AB /* MAViewController.m in Sources */,
+				16802E7F1819BDEA0079E3FB /* MAPullGestureTableViewController.m in Sources */,
+				168072201817F71D001966AB /* MSDragAndDropHandler.m in Sources */,
+				16802E7E1819BDEA0079E3FB /* MAPinchOutGestureTableViewController.m in Sources */,
+				16802E7C1819BDEA0079E3FB /* MADragAndDropGestureTableViewController.m in Sources */,
+				1680722B1817F876001966AB /* MAFlexibleTableViewController.m in Sources */,
+				161729641818172300D95877 /* MSPinchInHandler.m in Sources */,
+				168072211817F71D001966AB /* MSUtilitiesGesturesHandler.m in Sources */,
+				168072221817F71D001966AB /* MSPullToAdd.m in Sources */,
 				168071EC1817F6E4001966AB /* main.m in Sources */,
+				16802E7D1819BDEA0079E3FB /* MAPinchInGestureTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +579,7 @@
 				168072101817F6E4001966AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		168072111817F6E4001966AB /* Build configuration list for PBXNativeTarget "FlexibleTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +588,7 @@
 				168072131817F6E4001966AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

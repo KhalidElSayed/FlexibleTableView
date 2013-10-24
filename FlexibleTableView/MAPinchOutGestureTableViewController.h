@@ -1,5 +1,5 @@
 //
-//  MAViewController.h
+//  MAFlexibleTableViewController.h
 //  FlexibleTableView
 //
 //  Created by mohamed abd elaleem on 10/23/13.
@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MSPinchOutHandler.h"
 
-@interface MAViewController : UIViewController
+
+@interface MAPinchOutGestureTableViewController : UITableViewController <MAPinchOutDelegate>
 
 @end
